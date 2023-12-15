@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&display=swap');
+        *{
+            font-family: 'Lexend', sans-serif;
+        }
+        body{
+            background-color: rgb(255, 199, 94);
+        }
+        h2{
+            color: white;
+            text-align: center;
+        }
+        main{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 3px;
+            border-radius: 4px;
+        }
+        input{
+            margin: 2px;
+            border-radius: 2.5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Vamos contar
+    </h2>
+    <main>
+        <label for="numIni">
+            Início:
+        </label>
+        <input type="number" id="numIni"> <br>
+        <label for="numFim">
+            Fim:
+        </label> 
+        <input type="number" id="numFim"> <br>
+        <label for="numPas">
+            Passo:
+        </label>
+        <input type="number" id="numPas"> <br>
+        <input type="button" value="Contar" onclick="contar()">
+        <p id="resposta">
+            &#128073;
+        </p>
+    </main>
+    <script src="ex e1.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&display=swap');
+        *{
+            font-family: 'Lexend', sans-serif;
+        }
+        body{
+            background-color: rgb(50, 121, 50);
+        }
+        h2{
+            color: white;
+            text-align: center;
+        }
+        main{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 3px;
+            border-radius: 4px;
+        }
+        input{
+            margin: 2px;
+            border-radius: 2.5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Tabuada
+    </h2>
+    <main>
+        <label for="num">
+            Número:
+        </label>
+        <input type="text" id="num"> <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        <pre id="resposta">
+
+        </pre>
+    </main>
+</body>
+</html>
